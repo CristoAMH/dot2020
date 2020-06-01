@@ -13,11 +13,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'tpope/vim-commentary'
-    "Plug 'haishanh/night-owl.vim'
-    Plug 'ayu-theme/ayu-vim' 
-	"Plug 'joshdick/onedark.vim' 
+    Plug 'haishanh/night-owl.vim'
+    " Plug 'ayu-theme/ayu-vim' 
 	Plug 'airblade/vim-rooter'	
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	"Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 "--------------------------------------------------
