@@ -17,6 +17,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'ayu-theme/ayu-vim' 
 	"Plug 'joshdick/onedark.vim' 
 	Plug 'airblade/vim-rooter'	
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 "--------------------------------------------------
